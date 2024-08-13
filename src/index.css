@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: "Yekan";
+      font-style: normal;
+      font-display: swap;
+      src: url(./assets/fonts/Yekan.ttf) format("truetype");
+    }
+}
